@@ -1,0 +1,3 @@
+C:/Users/is-48/Desktop/Study/ikt101_study/input_output/input/cmake-build-debug/CMakeFiles/input.dir
+C:/Users/is-48/Desktop/Study/ikt101_study/input_output/input/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/is-48/Desktop/Study/ikt101_study/input_output/input/cmake-build-debug/CMakeFiles/rebuild_cache.dir
