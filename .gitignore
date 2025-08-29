@@ -1,0 +1,11 @@
+@"
+cmake-build-*/
+.idea/
+*.o
+*.exe
+*.out
+*.a
+*.so
+*.dll
+core
+"@ | Out-File -Encoding utf8 .gitignore
