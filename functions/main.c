@@ -11,6 +11,10 @@ void print_greeting(void);
 float calculate_area(float length, float width);
 void print_array(int numbers[], int size);
 int find_maximum(int array[], int size);
+void test_copy_function(int number);
+float celsius_to_fahrenheit(float celsius);
+float calculate_average(int scores[], int count);
+int is_even(int number);
 
 int main(void) {
 
@@ -160,7 +164,7 @@ int main(void) {
      * - int multiply(int a, int b) - returns a * b
      * - int subtract(int a, int b) - returns a - b
      * - float divide(float a, float b) - returns a / b (check for division by zero!)
-     * 
+     *
      * Test them with different values and print results
      */
 
@@ -169,7 +173,7 @@ int main(void) {
      * - void print_stars(int count) - prints count number of stars
      * - int count_vowels(char text[]) - counts vowels (a,e,i,o,u) in text
      * - void print_backwards(char text[]) - prints string in reverse
-     * 
+     *
      * Test with user input using scanf
      */
 
@@ -179,7 +183,7 @@ int main(void) {
      * - int find_minimum(int arr[], int size) - returns smallest value
      * - void double_array(int arr[], int size) - multiplies each element by 2
      * - int search_array(int arr[], int size, int target) - returns index of target, -1 if not found
-     * 
+     *
      * Create arrays, fill with values, and test all functions
      */
 
