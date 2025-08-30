@@ -144,42 +144,8 @@ for (int i = 0; i < 5; i++) {        // Outer loop: controls rows
 
 ### How Nested Loops Work:
 
-```
-NESTED LOOP DIAGRAM:
+<img width="850" height="436" alt="image" src="https://github.com/user-attachments/assets/968ec2d8-e1d0-4e71-8680-6443b8917f02" />
 
-for (int i = 0; i < 5; i++) {           ← OUTER LOOP (i controls ROWS)
-    for (int j = 1; j <= 5; j++) {      ← INNER LOOP (j controls COLUMNS)
-        printf("%d ", j);
-    }
-    printf("\n");
-}
-
-EXECUTION BREAKDOWN:
-
-i=0 → j: 1 2 3 4 5  → OUTPUT: 1 2 3 4 5
-      ↑ ↑ ↑ ↑ ↑
-      Inner loop runs completely
-
-i=1 → j: 1 2 3 4 5  → OUTPUT: 1 2 3 4 5
-      ↑ ↑ ↑ ↑ ↑
-      Inner loop runs completely again
-
-i=2 → j: 1 2 3 4 5  → OUTPUT: 1 2 3 4 5
-i=3 → j: 1 2 3 4 5  → OUTPUT: 1 2 3 4 5
-i=4 → j: 1 2 3 4 5  → OUTPUT: 1 2 3 4 5
-
-VISUAL REPRESENTATION:
-
-        j=1  j=2  j=3  j=4  j=5
-i=0  →   1    2    3    4    5     ← First row
-i=1  →   1    2    3    4    5     ← Second row
-i=2  →   1    2    3    4    5     ← Third row
-i=3  →   1    2    3    4    5     ← Fourth row
-i=4  →   1    2    3    4    5     ← Fifth row
-↑
-Outer loop (i) moves DOWN (controls rows)
-Inner loop (j) moves RIGHT (controls what's printed in each row)
-```
 
 **Key Points:**
 
