@@ -135,11 +135,16 @@ printf("\n");
 
 ```c
 for (int i = 0; i < 5; i++) {        // Outer loop: controls rows
-    for (int j = 1; j <= 5; j++) {   // Inner loop: prints numbers
+    for (int j = 1; j <= 3; j++) {   // Inner loop: prints numbers
         printf("%d ", j);
     }
     printf("\n");                    // New line after each row
 }
+output :
+1 2 3 
+1 2 3 
+1 2 3 
+1 2 3 
 ```
 
 ### How Nested Loops Work:
