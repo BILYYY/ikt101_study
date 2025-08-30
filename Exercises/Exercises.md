@@ -372,7 +372,7 @@ Total occurrences: 4
 
 ---
 
-### Exercise 5: Bubble Sort (HARD)
+### Exercise 5: Bubble Sort (MEDIUM)
 
 **Difficulty:** ⭐⭐⭐ (3/5)
 
